@@ -1,3 +1,21 @@
+# Challengue
+
+Te proponemos el siguiente desafío, ¿te animas?
+
+📝 1. Sigue las instrucciones de [este sandbox](https://codesandbox.io/s/asistentes-xfi36) y calcula la cantidad de personas asistentes a un evento.
+
+📝 2. Sobre el sandbox anterior, desarrolla una función que te permita crear un nuevo array que tenga solo las personas asistentes. Es decir, que tengan la propiedad “asistente” dentro de su objeto, y que esta sea igual a “true”.
+
+📝 3. Además, desarrolla una función que te permite crear un nuevo array que tenga solo las personas de la sección “platino”.
+
+📝 4. Finalmente, crea una única función que cree un nuevo array según un filtro y un valor especificado, los cuales tendrán que ser pasados como argumentos a la función. Por ejemplo:
+
+let speakers = filtrarPersonas(“rol”, “speaker”);
+
+Lo anterior deberá retornar un nuevo array solo con los objetos donde la propiedad “rol” sea igual a “speaker. Encuentra unos tipos en este [sandbox](https://codesandbox.io/s/filtro-cqvzx).
+
+# Pasos para crear un branch y pull request para revisión de su código
+
 Crea una rama de master, el nombre de su rama debe tener la siguiente estructura:
 ch_nombre_apellidoPaterno_appelidoMaterno
 ejemplo: ch_angel_perez_perez
@@ -10,7 +28,7 @@ Dentro de este directorio cargar el o los archivos de la solución al challengue
 
 Ejemplo de comandos de git en consola
 ```
-cd 23_objetos
+cd 23_Objetos
 git checkout main
 git checkout -b ch_ange_perez_perez
 mkdir angel_perez_perez
@@ -46,10 +64,3 @@ donde:
 4. Título del PR
 5. Comentarios relacionados con el PR
 6. Finalmente crean el pull request (**Create pull request**)
-
-
-# Challengue
-
-Te proponemos el siguiente desafío, ¿te animas?
-
-📝 Toma alguna de las propiedades y métodos que creaste en tu clase “Aviones” y genera un objeto a partir de la definiciónde tu clase.
