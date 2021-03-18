@@ -1,4 +1,4 @@
-# Challengue
+# Challenge
 
 Te proponemos el siguiente desafío, ¿te animas?
 
